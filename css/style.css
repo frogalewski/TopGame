@@ -1,0 +1,13 @@
+.bg-darki {    
+    background: black;
+}
+
+.row{
+    border: 2px;
+    color: rgb(252, 252, 252); 
+ }
+ 
+ .card{
+     padding: 1rem;     
+ }
+
