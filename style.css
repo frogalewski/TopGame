@@ -1,0 +1,21 @@
+.bg-darki {    
+    background: black;
+}
+
+.grid{
+    display: flex;
+}
+
+.row{
+   border: 2px;
+   color: rgb(252, 252, 252);
+   
+   
+}
+
+.card-body{
+    padding: 0,1px;
+    background: black;
+    width: 100%;
+   
+}
