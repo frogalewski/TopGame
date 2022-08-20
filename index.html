@@ -19,7 +19,7 @@
         <button class="btn float-end bg-black btn-primary m-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" role="button">
           Menu
       </button>
-        <a class="navbar-brand link-light" href="#">Game Top</a>
+        <a class="navbar-brand link-light" href="#"><img width="120"src="./images/LOGO.png"  alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,10 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
             <li class="nav-item">
-              <a class="nav-link link-light" href="#"><i class="bi bi-basket2"></i></a>
+              <a class="nav-link link-light" href="#">  <div class="menu-openner">
+                <span>0</span>
+                <span class="material-icons"><i class="bi bi-basket2"></i></span>
+            </div></a>
             </li>
             <li class="nav-item">
               <a class="nav-link link-light" href="#"><i class="bi bi-bell"></i></a>
@@ -52,8 +55,8 @@
 
   <main>
 
-    <div class="offcanvas offcanvas-start w-20 bg-dark" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="false">
-      <div class="offcanvas-header  ">
+      <div class="offcanvas offcanvas-start w-20 bg-dark" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="false">
+      <div class="offcanvas-header  "> <img src="./images/LOGO.png" width="100" alt="">
           <h6 class="offcanvas-title d-none d-sm-block" id="offcanvas">Menu</h6>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
@@ -97,19 +100,48 @@
           </ul>
       </div>
   </div>
-  
+  <!--carrocel-->
               
         <div class="col py-3 bg-darki">
           <div class="card card-image bg-dark">
-            <img src="./images/game.jpg" alt="">
+            <section area-labol="carrossel">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/forza.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/cavalo.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/3001.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/jogo7.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>                             
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>                
+              </div>
+            </section>
+            
+
+                <!--inicio jogos-->
 
 
-            <div class="col py-3">
+            <div class="col py-3 bg-dark">
               <div class="row">
                 <div class="col-sm-4">
                   <div class="card bg-black">
-                    <div class="card-body">
-                      <img class="card-img-top " src="./images/jogo1.jpg" alt="">
+                    <div class="card-body">                      
+                      <iframe width="400" height="275" src="https://www.youtube.com/embed/c0i88t0Kacs?start=78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img class="card-img-top " src="./images/jogo1.jpg" alt=""></iframe>
                       <h5 class="card-title">Special title treatment</h5>
                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                       <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
@@ -136,10 +168,12 @@
                     </div>
                   </div>
                 </div>
+
+
                 <div class="col-sm-4">
                   <div class="card bg-black">
                     <div class="card-body ">
-                      <img class="card-img-top " src="./images/jogo2.jpeg " alt="">
+                       <iframe width="400" height="275" src="https://www.youtube.com/embed/QwCV-Cuvko0?start=24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       <h5 class="card-title">Special title treatment</h5>
                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                       <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
@@ -166,10 +200,13 @@
                     </div>
                   </div>
                 </div>
+
+
                 <div class="col-sm-4">
                   <div class="card bg-black">
                     <div class="card-body ">
-                      <img class="card-img-top " src="./images/jogo3.jpg" alt="">
+                      
+                      <iframe width="400" height="275" src="https://www.youtube.com/embed/o3V-GvvzjE4?start=12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img class="card-img-top " src="./images/jogo3.jpg" alt=""></iframe>
                       <h5 class="card-title">Special title treatment</h5>
                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                       <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
@@ -177,7 +214,7 @@
                         <div class="modal-dialog modal-dialog-centered">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                               <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal"
                                 aria-label="Close"></button>
                             </div>
@@ -194,20 +231,19 @@
                       <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Saber
                         mais...</a>
                     </div>
-
                   </div>
-
-
                 </div>
               </div>
             </div>
           </div>
-          <div class="col py-3">
+
+
+          <div class="col py-3 bg-dark">
             <div class="row">
               <div class="col-sm-4">
                 <div class="card bg-black">
-                  <div class="card-body ">
-                    <img class="card-img-top" src="./images/jogo4.jpg" alt="">
+                  <div class="card-body ">                    
+                    <iframe width="400" height="275" src="https://www.youtube.com/embed/W15GFlzzGss?start=12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img class="card-img-top" src="./images/jogo4.jpg" alt=""></iframe>
                     <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
@@ -230,13 +266,16 @@
                     </div>
                     <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Saber
                       mais...</a>
+                      <button type="button" class="btn btn-success">Trailer</button>
                   </div>
                 </div>
               </div>
+
+
               <div class="col-sm-4">
                 <div class="card bg-black">
                   <div class="card-body ">
-                    <img class="card-img-top rounded" src="./images/jogo5.jpeg " alt="">
+                    <iframe width="400" height="275" src="https://www.youtube.com/embed/Xjj_oj8Z09o?start=12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img class="card-img-top rounded" src="./images/jogo5.jpeg " alt=""></iframe>
                     <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
@@ -244,7 +283,8 @@
                       <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                            <h5 class="modal-title" id="exampleModalToggleLabel"> <iframe width="400" height="200" src="https://www.youtube.com/embed/Nx9NgXi8nP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"> </script></h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
@@ -253,54 +293,42 @@
                           <div class="modal-footer">
                             <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
                               data-bs-toggle="modal">Open second modal</button>
+                              
                           </div>
+
+                          
+
+
                         </div>
                       </div>
                     </div>
                     <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Saber
                       mais...</a>
+                      <button type="button" class="btn btn-success">Trailer</button>
                   </div>
                 </div>
               </div>
+
+
               <div class="col-sm-4">
                 <div class="card bg-black">
                   <div class="card-body ">
-                    <img class="card-img-top rounded" src="./images/jogo6.png" alt="">
+                    <iframe width="400" height="275" src="https://www.youtube.com/embed/Nx9NgXi8nP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> <img class="card-img-top rounded" src="./images/jogo6.png" alt=""></iframe>
+                   
                      <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
                     
                     <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Saber
                       mais...</a>
+                      <button type="button" class="btn btn-success">Trailer</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           
-          <section area-labol="carrossel">
-          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./images/forza.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/cavalo.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/3001.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </section>
+          
           <!-- Content -->
         
         </div>
@@ -308,8 +336,8 @@
     </div>
     </div>
   </main>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Nx9NgXi8nP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"> </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"> </script>
+  <script type="text/javascript" src="models.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </body>
-
 </html>
