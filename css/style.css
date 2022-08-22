@@ -2,21 +2,46 @@
     background:black;
 }
 
-.grid{
-    display: flex;
-}
-
 .row{
    border: 1px;
-   color: rgb(253, 253, 253);
-   
-      
+   color: rgb(253, 253, 253);     
 }
 
-.card-body{
-    padding: 0,1px;
-    background: black;
-    width: 100%;
-    border-color: red;
-   
+.border-radius--right{
+    border-radius: 4px 0 0 4px!important;
+    margin-left: 20px!important;
 }
+
+.border-radius--left{
+    border-radius: 0 4px 4px 0!important;
+}
+
+
+
+.btn-close-color{
+    color: light!important;
+}
+
+.overlay-anim2{
+    opacity: 20%;
+}
+
+.image-fundo{
+background-image: url(./images/barra.jpg);
+
+}
+
+.btn-green{
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    width: 21vw;
+    text-align: center;
+    }
+
+    
+
+
