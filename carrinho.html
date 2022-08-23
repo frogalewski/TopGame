@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/modal-jogos.css">
+    <title>Carrinho de Compras</title>
+</head>
+
+<body>
+
+    <header>
+        <!--header menu-->
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <button class="btn bg-dark btn-primary m-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                role="button">
+                <i class="bi bi-arrow-right"></i>
+            </button>
+            <div class="container">
+                <div class="">
+                    <a class="navbar-brand link-light" href="#"><img width="120" src="./images/LOGO.png" alt="logo"></a>
+                </div>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                    <ul class="nav">
+
+                        <form class="d-flex" role="search">
+                            <input class="form-control rounded-0 border-radius--right" type="search"
+                                placeholder="Search" aria-label="Search">
+                            <button class="btn btn-primary rounded-0 border-radius--left" type="submit">Search</button>
+                        </form>
+
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="#scroll">
+                                <div class="menu-openner">
+                                    <span class="navbar-tool-label">0</span>
+                                    <span class="material-icons"><i class="bi bi-basket2"></i></span>
+                                </div>
+                            </a>
+                        </li>                       
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+      <div class="container">
+        <H1>Carrinho de Compras</H1>
+        <hr>
+        <ul class="list-group mb-3"> 
+            <li class="list-group-item m-3">
+                <div class="row g-3">
+                    <div class="col-4 col-md-3 col-lg-2">
+                        <a href="#">
+                            <img src="./images/jogo1.jpg" width="150" alt="">
+                        </a>
+                    </div>
+                
+                <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left algin-self-center">
+                 <h4><b><a href="#" class="text-decoration-none text-danger">The Whicher 3</a></b></h4>
+                 <h4><small class=" text-dark">Uma nova aventuta cheia de estratégias</small>
+                </h4>
+                </div>
+
+                <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 algin-self-center mt-3">
+                <div class="imput-group">
+
+                    <button type="button" class="btn btn-outline-dark btn-sm">
+                    <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                        <use xlink:href="bi.sgv#caret-down"/>
+                    </sgv>
+                    </button>
+                    <input type="Text" class="form control text-center border dark" value="4">
+                    <button type="button" class="btn btn-outline-dark btn-sm">
+                        <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                            <use xlink:href="bi.sgv#caret-up"/>
+                        </sgv>
+                        </button>
+                    </button>
+                        <button type="button" class="btn btn-outline-danger border-dark btn-sm">
+                        <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                            <use xlink:href="bi.sgv#trash"/>
+                        </sgv>
+                        </button>
+                </div>
+                <div class="texte-right mt-2">
+                    <small class="text-danger">Valor R$ 289,00</small><br>
+                    <span class="text-dark">Valor Item  10% desc. R$ 260,00</span>
+
+                </div>
+                </div>
+                </div>
+            </li>
+
+            <li class="list-group-item m-3">
+                <div class="row g-3">
+                    <div class="col-4 col-md-3 col-lg-2">
+                        <a href="#">
+                            <img src="./images/jogo1.jpg" width="150" alt="">
+                        </a>
+                    </div>
+                
+                <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left algin-self-center">
+                 <h4><b><a href="#" class="text-decoration-none text-danger">The Whicher 3</a></b></h4>
+                 <h4><small class=" text-dark">Uma nova aventuta cheia de estratégias</small>
+                </h4>
+                </div>
+
+                <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 algin-self-center mt-3">
+                <div class="imput-group">
+
+                    <button type="button" class="btn btn-outline-dark btn-sm">
+                    <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                        <use xlink:href="bi.sgv#caret-down"/>
+                    </sgv>
+                    </button>
+                    <input type="Text" class="form control text-center border dark" value="4">
+                    <button type="button" class="btn btn-outline-dark btn-sm">
+                        <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                            <use xlink:href="bi.sgv#caret-up"/>
+                        </sgv>
+                        </button>
+                    </button>
+                        <button type="button" class="btn btn-outline-danger border-dark btn-sm">
+                        <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                            <use xlink:href="bi.sgv#trash"/>
+                        </sgv>
+                        </button>
+                </div>
+                <div class="texte-right mt-2">
+                    <small class="text-danger">Valor R$ 289,00</small><br>
+                    <span class="text-dark">Valor Item  10% desc. R$ 260,00</span>
+
+                </div>
+                </div>
+                </div>
+            </li>
+
+            <li class="list-group-item m-3">
+                <div class="row g-3">
+                    <div class="col-4 col-md-3 col-lg-2">
+                        <a href="#">
+                            <img src="./images/jogo1.jpg" width="150" alt="">
+                        </a>
+                    </div>
+                
+                <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left algin-self-center">
+                 <h4><b><a href="#" class="text-decoration-none text-danger">The Whicher 3</a></b></h4>
+                 <h4><small class=" text-dark">Uma nova aventuta cheia de estratégias</small>
+                </h4>
+                </div>
+
+                <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 algin-self-center mt-3">
+                <div class="imput-group">
+
+                    <button type="button" class="btn btn-outline-dark btn-sm">
+                    <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                        <use xlink:href="bi.sgv#caret-down"/>
+                    </sgv>
+                    </button>
+                    <input type="Text" class="form control text-center border dark" value="4">
+                    <button type="button" class="btn btn-outline-dark btn-sm">
+                        <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                            <use xlink:href="bi.sgv#caret-up"/>
+                        </sgv>
+                        </button>
+                    </button>
+                        <button type="button" class="btn btn-outline-danger border-dark btn-sm">
+                        <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                            <use xlink:href="bi.sgv#trash"/>
+                        </sgv>
+                        </button>
+                </div>
+                <div class="texte-right mt-2">
+                    <small class="text-danger">Valor R$ 289,00</small><br>
+                    <span class="text-dark">Valor Item  10% desc. R$ 260,00</span>
+
+                </div>
+                </div>
+                </div>
+            </li>
+
+            <li class="list-group-item m-3">
+                <div class="row g-3">
+                    <div class="col-4 col-md-3 col-lg-2">
+                        <a href="#">
+                            <img src="./images/jogo1.jpg" width="150" alt="">
+                        </a>
+                    </div>
+                
+                <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left algin-self-center">
+                 <h4><b><a href="#" class="text-decoration-none text-danger">The Whicher 3</a></b></h4>
+                 <h4><small class=" text-dark">Uma nova aventuta cheia de estratégias</small>
+                </h4>
+                </div>
+
+                <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 algin-self-center mt-3">
+                <div class="imput-group">
+
+                    <button type="button" class="btn btn-outline-dark btn-sm">
+                    <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                        <use xlink:href="bi.sgv#caret-down"/>
+                    </sgv>
+                    </button>
+                    <input type="Text" class="form control text-center border dark" value="4">
+                    <button type="button" class="btn btn-outline-dark btn-sm">
+                        <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                            <use xlink:href="bi.sgv#caret-up"/>
+                        </sgv>
+                        </button>
+                    </button>
+                        <button type="button" class="btn btn-outline-danger border-dark btn-sm">
+                        <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                            <use xlink:href="bi.sgv#trash"/>
+                        </sgv>
+                        </button>
+                </div>
+                <div class="texte-right mt-2">
+                    <small class="text-danger">Valor R$ 289,00</small><br>
+                    <span class="text-dark">Valor Item  10% desc. R$ 260,00</span>
+
+                </div>
+                </div>
+                </div>
+            </li>
+
+            <li class="list-group-item m-3">
+                <div class="row g-3">
+                    <div class="col-4 col-md-3 col-lg-2">
+                        <a href="#">
+                            <img src="./images/jogo1.jpg" width="150" alt="">
+                        </a>
+                    </div>
+                
+                <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left algin-self-center">
+                 <h4><b><a href="#" class="text-decoration-none text-danger">The Whicher 3</a></b></h4>
+                 <h4><small class=" text-dark">Uma nova aventuta cheia de estratégias</small>
+                </h4>
+                </div>
+
+                <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 algin-self-center mt-3">
+                <div class="imput-group">
+
+                    <button type="button" class="btn btn-outline-dark btn-sm">
+                    <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                        <use xlink:href="bi.sgv#caret-down"/>
+                    </sgv>
+                    </button>
+                    <input type="Text" class="form control text-center border dark" value="4">
+                    <button type="button" class="btn btn-outline-dark btn-sm">
+                        <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                            <use xlink:href="bi.sgv#caret-up"/>
+                        </sgv>
+                        </button>
+                    </button>
+                        <button type="button" class="btn btn-outline-danger border-dark btn-sm">
+                        <sgv class="bi" width="16" heidth="16" fill="currentColor">
+                            <use xlink:href="bi.sgv#trash"/>
+                        </sgv>
+                        </button>
+                </div>
+                <div class="texte-right mt-2">
+                    <small class="text-danger">Valor R$ 289,00</small><br>
+                    <span class="text-dark">Valor Item  10% desc. R$ 260,00</span>
+
+                </div>
+                </div>
+                </div>
+            </li>
+
+            
+
+            
+        </ul>
+
+        
+      </div>
+
+      
+    </main>
+        
+      
+            <div class="col-4 offset-1">
+              <form>
+                <h5>Inscreva-se em nosso newsletter</h5>
+                <p>Resumo mensal do que há de novo e emocionante de nós.</p>
+                <div class="d-flex w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary w-50" type="button">Inscreva-se</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex align-items-center justify-content-between py-4 my-4 border-top">
+           <img src="./images/LOGO.png" width="100"> <p class="text-light">&copy; 2022 TopGame, Inc. Todos os direitos reservados.</p>            
+          </div>        
+      </div>
+    </footer>
+            
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"> </script>
+    <script type="text/javascript" src="./js/models.j"></script>
+    <script type="text/javascript" src="./js/script.j"></script>
+    <script type="text/javascript" src="./js/modal-jogos.js"></script>
+</body>
+</html>
