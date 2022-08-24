@@ -52,7 +52,7 @@
 }
 
 .aside {
-  background-color: #0df1d9;
+  background-color: #1100fa;
   width: 0vw;
   font-family: 'Hepta Slab', Helvetica, Arial;
   transition: all ease 0.2s;
@@ -75,8 +75,8 @@
 h1 {
   font-family: 'Hepta Slab', Helvetica, Arial;
   padding-top: 2vw;
-  background-color: #0df1d9;
-  color: black;
+  background-color: #074dff;
+  color: rgb(230, 230, 230);
   text-align: center;
   font-size: 50px;
 }
