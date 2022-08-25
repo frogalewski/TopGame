@@ -7,6 +7,12 @@
    color: rgb(253, 253, 253);     
 }
 
+ .after, .before {
+    box-sizing: border-box;
+}
+folha de estilos do agente do utilizador
+a:-
+
 .border-radius--right{
     border-radius: 4px 0 0 4px!important;
     margin-left: 20px!important;
