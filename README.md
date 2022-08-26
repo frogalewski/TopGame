@@ -8,3 +8,5 @@ Uma plataforma para venda de jogos, com o trailler de cada jogo e informação p
 
 
 Desenvolvedores Fabiano Rogalewski e Alexandre Kimetiuk. 
+
+https://frogalewski.github.io/TopGame/
